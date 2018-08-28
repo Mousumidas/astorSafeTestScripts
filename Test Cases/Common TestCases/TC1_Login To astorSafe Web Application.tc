@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Open Browser
+2. Enter astorSafe URL
+3. Enter Valid User Name and Passwoord
+4. Click Login</description>
+   <name>TC1_Login To astorSafe Web Application</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3128d73-1f12-4020-b695-e9f3223a9470</testCaseGuid>
+</TestCaseEntity>

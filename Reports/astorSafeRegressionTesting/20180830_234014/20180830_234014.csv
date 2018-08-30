@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+astorSafeRegressionTesting,Firefox 61.0,For regression testing  after each sprints,2018-08-30 23:40:17,2018-08-30 23:41:23,1m - 6.145s,PASSED
+,,,,,,
+Test Cases/Common TestCases/TC1_Login To astorSafe Web Application,Firefox 61.0,"1. Open Browser
+2. Enter astorSafe URL
+3. Enter Valid User Name and Passwoord
+4. Click Login",2018-08-30 23:40:18,2018-08-30 23:41:23,1m - 5.357s,PASSED
+openBrowser,Firefox 61.0,,2018-08-30 23:40:18,2018-08-30 23:41:14,55.745s,PASSED
+maximizeWindow,Firefox 61.0,,2018-08-30 23:41:14,2018-08-30 23:41:14,0.403s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-30 23:41:14,2018-08-30 23:41:20,5.702s,PASSED
+setText,Firefox 61.0,,2018-08-30 23:41:20,2018-08-30 23:41:21,1.041s,PASSED
+setEncryptedText,Firefox 61.0,,2018-08-30 23:41:21,2018-08-30 23:41:22,0.504s,PASSED
+click,Firefox 61.0,,2018-08-30 23:41:22,2018-08-30 23:41:22,0.813s,PASSED
+closeBrowser,Firefox 61.0,,2018-08-30 23:41:23,2018-08-30 23:41:23,0.603s,PASSED

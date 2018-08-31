@@ -25,11 +25,3 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://astoria-qa.astorsafe.com/Login.aspx?ReturnUrl=%2f')
 
-WebUI.setText(findTestObject('Object Repository/Login Page/Page_astorSafe - Login/input_loginCtrlUserName'), 'admin1')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/Page_astorSafe - Login/input_loginCtrlPassword'), '9NLz+4tGZcQ=')
-
-WebUI.click(findTestObject('Object Repository/Login Page/Page_astorSafe - Login/input_loginCtrlLoginButton'))
-
-WebUI.closeBrowser()
-

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+astorSafeRegressionTesting,Chrome 68.0.3440.106,For regression testing  after each sprints,2018-08-31 11:40:27,2018-08-31 11:40:46,18.409s,FAILED
+,,,,,,
+Test Cases/Common TestCases/TC1_Login To astorSafe Web Application,Chrome 68.0.3440.106,"1. Open Browser
+2. Enter astorSafe URL
+3. Enter Valid User Name and Passwoord
+4. Click Login",2018-08-31 11:40:28,2018-08-31 11:40:38,9.893s,FAILED
+openBrowser,Chrome 68.0.3440.106,,2018-08-31 11:40:29,2018-08-31 11:40:34,4.798s,PASSED
+maximizeWindow,Chrome 68.0.3440.106,,2018-08-31 11:40:34,2018-08-31 11:40:35,1.451s,PASSED
+navigateToUrl,Chrome 68.0.3440.106,,2018-08-31 11:40:35,2018-08-31 11:40:36,1.437s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-31 11:40:36,2018-08-31 11:40:37,0.237s,PASSED
+setEncryptedText,Chrome 68.0.3440.106,,2018-08-31 11:40:37,2018-08-31 11:40:38,1.412s,FAILED
+,,,,,,
+Test Cases/Main TestCases/TC1_Verify Login With Valid Credentials,Chrome 68.0.3440.106,,2018-08-31 11:40:38,2018-08-31 11:40:45,6.860s,FAILED
+openBrowser,Chrome 68.0.3440.106,,2018-08-31 11:40:38,2018-08-31 11:40:41,2.842s,PASSED
+maximizeWindow,Chrome 68.0.3440.106,,2018-08-31 11:40:41,2018-08-31 11:40:42,1.170s,PASSED
+navigateToUrl,Chrome 68.0.3440.106,,2018-08-31 11:40:42,2018-08-31 11:40:44,1.423s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-31 11:40:44,2018-08-31 11:40:44,0.187s,PASSED
+setEncryptedText,Chrome 68.0.3440.106,,2018-08-31 11:40:44,2018-08-31 11:40:45,1.042s,FAILED

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+astorSafeRegressionTesting,Chrome 68.0.3440.106,For regression testing  after each sprints,2018-08-31 11:42:55,2018-08-31 11:43:05,10.507s,FAILED
+,,,,,,
+Test Cases/Common TestCases/TC1_Login To astorSafe Web Application,Chrome 68.0.3440.106,"1. Open Browser
+2. Enter astorSafe URL
+3. Enter Valid User Name and Passwoord
+4. Click Login",2018-08-31 11:42:55,2018-08-31 11:43:04,8.904s,FAILED
+openBrowser,Chrome 68.0.3440.106,,2018-08-31 11:42:56,2018-08-31 11:43:00,3.669s,PASSED
+maximizeWindow,Chrome 68.0.3440.106,,2018-08-31 11:43:00,2018-08-31 11:43:01,1.327s,PASSED
+navigateToUrl,Chrome 68.0.3440.106,,2018-08-31 11:43:01,2018-08-31 11:43:02,1.253s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-31 11:43:02,2018-08-31 11:43:03,0.448s,PASSED
+setEncryptedText,Chrome 68.0.3440.106,,2018-08-31 11:43:03,2018-08-31 11:43:04,1.508s,FAILED

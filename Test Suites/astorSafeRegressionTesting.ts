@@ -4,7 +4,7 @@
    <name>astorSafeRegressionTesting</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-31T20:24:07</lastRun>
+   <lastRun>2018-08-31T21:45:20</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -22,5 +22,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Main TestCases/TC1_Verify Login With Valid Credentials</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>873b718b-978c-47cf-9c01-9c14bc8bc3ac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common TestCases/TC2_Click ControlPanel</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

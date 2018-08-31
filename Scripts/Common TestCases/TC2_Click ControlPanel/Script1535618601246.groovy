@@ -21,3 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('http://astoria-qa.astorsafe.com/Login.aspx?ReturnUrl=%2f')
+
+WebUI.setText(findTestObject('Object Repository/Login Page/Page_astorSafe - Login/Page_astorSafe - Login/input_loginCtrlUserName'), 
+    'admin1')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/Page_astorSafe - Login/Page_astorSafe - Login/input_loginCtrlPassword'), 
+    'r9FrzYZWA3s=')
+
+WebUI.click(findTestObject('Object Repository/Login Page/Page_astorSafe - Login/Page_astorSafe - Login/input_loginCtrlLoginButton'))
+

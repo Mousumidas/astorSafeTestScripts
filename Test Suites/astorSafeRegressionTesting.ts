@@ -27,6 +27,6 @@
       <guid>873b718b-978c-47cf-9c01-9c14bc8bc3ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common TestCases/TC2_Click ControlPanel</testCaseId>
+      <testCaseId>Test Cases/Common TestCases/TC2_Verify Add Emloyee</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -18,18 +18,39 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl('http://localhost/astoriaweb/AddViewEmployeeMaster.aspx')
+
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://astoria-qa.astorsafe.com/Login.aspx?ReturnUrl=%2f')
+WebUI.click(findTestObject('Page_Training Program/input_AddView Employee Master_'))
 
-WebUI.setText(findTestObject('Object Repository/Login Page/Page_astorSafe - Login/Page_astorSafe - Login/input_loginCtrlUserName'), 
-    'admin1')
+WebUI.delay(2)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/Page_astorSafe - Login/Page_astorSafe - Login/input_loginCtrlPassword'), 
-    'r9FrzYZWA3s=')
+WebUI.setText(findTestObject('Page_Training Program/input_EmployeeID_ctl00ContentP'), 'emp90')
 
-WebUI.click(findTestObject('Object Repository/Login Page/Page_astorSafe - Login/Page_astorSafe - Login/input_loginCtrlLoginButton'))
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Page_Training Program/input_First Name_ctl00ContentP'), 'mres')
+
+WebUI.setText(findTestObject('Page_Training Program/input_Last Name_ctl00ContentPl'), 'das')
+
+WebUI.selectOptionByValue(findTestObject('Page_Training Program/select_--Select--Astoria Techn'), '1', true)
+
+WebUI.selectOptionByValue(findTestObject('Page_Training Program/select_--Select--DirectorTeam'), '2', true)
+
+WebUI.click(findTestObject('Page_Training Program/input_Male_ctl00ContentPlaceHo'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_Training Program/div_10'))
+
+WebUI.setText(findTestObject('Page_Training Program/input_Joining Date_ctl00Conten'), '2018-09-10')
+
+WebUI.setText(findTestObject('Page_Training Program/input_Salary Rate(Hourly)_ctl0'), '8')
+
+WebUI.click(findTestObject('Page_Training Program/input_Enter Valid Salary Rate_'))
 

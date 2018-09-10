@@ -14,13 +14,13 @@
    <testCaseLink>
       <guid>c2107406-033a-45fe-9836-081304a23fa9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Common TestCases/TC1_Login To astorSafe Web Application</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1982958b-6595-48c4-9cae-b55a2f811390</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Main TestCases/TC1_Verify Login With Valid Credentials</testCaseId>
    </testCaseLink>
    <testCaseLink>

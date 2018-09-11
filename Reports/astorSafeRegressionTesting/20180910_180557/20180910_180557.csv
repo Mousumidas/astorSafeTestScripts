@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+astorSafeRegressionTesting,,For regression testing  after each sprints,2018-09-10 18:06:00,2018-09-10 18:06:22,21.919s,FAILED
+,,,,,,
+Test Cases/Common TestCases/TC2_Verify Add Emloyee,,,2018-09-10 18:06:01,2018-09-10 18:06:20,19.072s,FAILED
+openBrowser,,,2018-09-10 18:06:01,2018-09-10 18:06:12,10.489s,PASSED
+navigateToUrl,,,2018-09-10 18:06:12,2018-09-10 18:06:20,8.088s,FAILED

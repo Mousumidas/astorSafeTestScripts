@@ -46,11 +46,3 @@ WebUI.click(findTestObject('Page_Training Program/input_Male_ctl00ContentPlaceHo
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Training Program/div_10'))
-
-WebUI.setText(findTestObject('Page_Training Program/input_Joining Date_ctl00Conten'), '2018-09-10')
-
-WebUI.setText(findTestObject('Page_Training Program/input_Salary Rate(Hourly)_ctl0'), '8')
-
-WebUI.click(findTestObject('Page_Training Program/input_Enter Valid Salary Rate_'))
-

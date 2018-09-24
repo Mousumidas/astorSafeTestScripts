@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+astorSafeRegressionTesting,Chrome 69.0.3497.100,For regression testing  after each sprints,2018-09-24 17:47:55,2018-09-24 17:48:16,21.965s,FAILED
+,,,,,,
+Test Cases/Common TestCases/TC2_Verify Add Emloyee,Chrome 69.0.3497.100,,2018-09-24 17:47:55,2018-09-24 17:48:16,20.218s,FAILED
+openBrowser,Chrome 69.0.3497.100,,2018-09-24 17:47:56,2018-09-24 17:48:01,5.189s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-24 17:48:01,2018-09-24 17:48:08,6.820s,PASSED
+maximizeWindow,Chrome 69.0.3497.100,,2018-09-24 17:48:08,2018-09-24 17:48:09,1.162s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 17:48:09,2018-09-24 17:48:10,1.023s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-24 17:48:10,2018-09-24 17:48:15,5.031s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-24 17:48:15,2018-09-24 17:48:16,0.518s,FAILED

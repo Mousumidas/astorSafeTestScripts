@@ -4,7 +4,7 @@
    <name>astorSafeRegressionTesting</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-24T17:41:48</lastRun>
+   <lastRun>2018-09-24T17:47:51</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

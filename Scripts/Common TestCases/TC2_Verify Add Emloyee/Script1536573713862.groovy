@@ -28,7 +28,7 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Page_Training Program/input_AddView Employee Master_'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Page_Training Program/input_EmployeeID_ctl00ContentP'), 'emp90')
 

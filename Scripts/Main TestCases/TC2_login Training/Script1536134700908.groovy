@@ -18,4 +18,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+
+WebUI.acceptAlert()
+
+for (def index : (0..0)) {
+}
+
+WebUI.callTestCase(findTestCase('Common TestCases/TC1_Login To astorSafe Web Application'), [:], FailureHandling.STOP_ON_FAILURE)
 

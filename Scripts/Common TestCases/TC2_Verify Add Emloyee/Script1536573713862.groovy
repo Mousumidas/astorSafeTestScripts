@@ -26,23 +26,5 @@ WebUI.navigateToUrl('http://localhost/astoriaweb/AddViewEmployeeMaster.aspx')
 
 WebUI.maximizeWindow()
 
-not_run: WebUI.click(findTestObject('Page_Training Program/input_AddView Employee Master_'))
-
-not_run: WebUI.delay(5)
-
-not_run: WebUI.setText(findTestObject('Page_Training Program/input_EmployeeID_ctl00ContentP'), 'emp90')
-
-not_run: WebUI.delay(2)
-
-not_run: WebUI.setText(findTestObject('Page_Training Program/input_First Name_ctl00ContentP'), 'mres')
-
-not_run: WebUI.setText(findTestObject('Page_Training Program/input_Last Name_ctl00ContentPl'), 'das')
-
-not_run: WebUI.selectOptionByValue(findTestObject('Page_Training Program/select_--Select--Astoria Techn'), '1', true)
-
-not_run: WebUI.selectOptionByValue(findTestObject('Page_Training Program/select_--Select--DirectorTeam'), '2', true)
-
-not_run: WebUI.click(findTestObject('Page_Training Program/input_Male_ctl00ContentPlaceHo'))
-
-not_run: WebUI.delay(2)
+WebUI.click(findTestObject('Page_Training Program/input_AddView Employee Master_'))
 
